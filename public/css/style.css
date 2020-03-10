@@ -9875,6 +9875,13 @@ h3 {
     border-color: #dee2e6;
   }
 }
+@font-face {
+  font-family: "sen";
+  src: url("../../Fonts/Sen/Sen-Regular.ttf");
+  @font-face;
+  font-family: "baloo";
+  src: url("../../Fonts/Baloo_2/Baloo2-Regular.ttf");
+}
 .loader {
   background-color: black;
   height: 100vh;
@@ -9986,6 +9993,21 @@ nav {
   .banner {
     font-size: 20px;
   }
+}
+.aboutme {
+  font-family: baloo;
+}
+
+.about {
+  font-family: 30px;
+  font-weight: bold;
+  color: #171717;
+  letter-spacing: 3px;
+}
+
+.img {
+  width: 70%;
+  border: 5px black solid;
 }
 
 /*# sourceMappingURL=style.css.map */

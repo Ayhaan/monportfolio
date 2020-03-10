@@ -15,7 +15,7 @@ const Banner = () => {
                         <h1 className="d-flex banner">{a}
                             <Typewriter
                                 options={{
-                                    strings: [`_I'm from Belgium `, ` _Hi, I'am Ayhan Caliskan `, ` _I'm a Full Stack Devloper `],
+                                    strings: [`_I'm from Belgium `, ` _Hi, I'm Ayhan Caliskan `, ` _I'm a Full Stack Developer `],
                                     autoStart: true,
                                     loop: true,
                                 }}
