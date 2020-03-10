@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react'
-// import Zoom from 'react-reveal/Fade';
-// import Typewriter from 'typewriter-effect/dist/core';
 import Typist from 'react-typist';
 
 const Loaders = () => {
@@ -45,10 +43,8 @@ const Loaders = () => {
         setTest("d-none")
     }, 10000)
 
-
-
     return (
-        <div className={`${test}`} style={{ position: "absolute" }}>
+        <div className={`${test}`} style={{ position: "absolute", zIndex:"+10"}}>
             <div className={`${nombre === "100%" ? "fade" : ""}`} style={{ position: "fixed", width: "100%" }}>
                 <div className="loader d-flex flex-column justify-content-center " >
                     <h2 id="texte" className="text-white text-center container test">
@@ -61,16 +57,14 @@ const Loaders = () => {
                              </Typist>
                     </h2>
                     <div className="loader2 d-flex justify-content-center mt-5" >
-                        <span> {a}  </span>
+                        <span className={"span"}> {a}  </span>
                         <label className="mt-2" >
                             {nombre}
                         </label>
-                        <span> {b} </span>
+                        <span className={"span"}> {b} </span>
 
                     </div>
-
                 </div>
-
             </div>
         </div>
     )
