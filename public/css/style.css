@@ -9907,8 +9907,11 @@ label {
   display: inline-block;
   animation: pulse 0.4s alternate infinite ease-in-out;
 }
-.span:nth-last-of-type(2) {
-  animation-delay: 0.4s;
+
+.span1 {
+  display: inline-block;
+  animation: pulse 0.4s alternate infinite ease-in-out;
+  animation-delay: 0.2s;
 }
 
 @keyframes pulse {
@@ -9949,6 +9952,7 @@ nav {
   background-image: url(/img/photo-1572916118970-fb5c8a1cb3d1.jpeg);
   height: 100vh;
   background-size: cover;
+  filter: brightness(0.8);
   font-family: Consolas, Menlo, Monac, monospace;
 }
 
@@ -9968,32 +9972,6 @@ nav {
   border: 2px #efefef solid;
 }
 
-@media (max-width: 767px) {
-  .intro {
-    background-position: center;
-  }
-
-  .banner {
-    font-size: 20px;
-  }
-
-  .btnx {
-    margin: 10px !important;
-  }
-}
-@media (min-width: 768px) and (max-width: 1366px) {
-  .btnx {
-    margin: 10px !important;
-  }
-
-  .intro {
-    background-position: center;
-  }
-
-  .banner {
-    font-size: 20px;
-  }
-}
 .aboutme {
   font-family: baloo;
 }
@@ -10008,6 +9986,89 @@ nav {
 .img {
   width: 70%;
   border: 5px black solid;
+}
+
+.skill {
+  font-family: baloo;
+  background-color: #f3f3f3;
+}
+
+.myskill {
+  color: #171717;
+  letter-spacing: 5px;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  border: solid 2px lightgrey;
+  border-radius: 50%;
+}
+
+.logo:hover {
+  background-color: #cc2900;
+  color: white;
+  font-size: 18px;
+  border: solid 2px #cc2900;
+  transition: all 1s;
+}
+
+.rouge {
+  color: #cc2900;
+}
+
+.empo {
+  width: 80%;
+  height: auto;
+  border: 1px solid black !important;
+  transform: scale(1);
+  filter: brightness(1);
+  transition: transform 0.2s;
+}
+
+.empo:hover {
+  transform: scale(1.1);
+  filter: brightness(0.8);
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .intro {
+    background-position: center;
+  }
+
+  .banner {
+    font-size: 20px;
+  }
+
+  .btnx {
+    margin: 10px !important;
+  }
+
+  .skill {
+    margin: 0 !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1366px) {
+  .btnx {
+    margin: 10px !important;
+  }
+
+  .intro {
+    background-position: center;
+  }
+
+  .banner {
+    font-size: 20px;
+  }
+
+  .skill {
+    margin: 0 !important;
+  }
+
+  .rouge {
+    font-size: 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

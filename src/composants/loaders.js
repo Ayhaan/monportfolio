@@ -61,7 +61,7 @@ const Loaders = () => {
                         <label className="mt-2" >
                             {nombre}
                         </label>
-                        <span className={"span"}> {b} </span>
+                        <span className={"span1"}> {b} </span>
 
                     </div>
                 </div>

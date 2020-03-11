@@ -24,9 +24,13 @@ label
 .span
     display: inline-block
     animation: pulse 0.4s alternate infinite ease-in-out
-    &:nth-last-of-type(2)
-        animation-delay: 0.4s
+.span1
+    display: inline-block
+    animation: pulse 0.4s alternate infinite ease-in-out
+    animation-delay: 0.2s
+    // &:nth-last-of-type(1)
         // Effet pulse
+
 @keyframes pulse
     to
         transform: scale(0.8)
@@ -60,6 +64,7 @@ nav
     height: 100vh
     background-size: cover
     // background-attachment: fixed
+    filter: brightness(0.80)
 
     font-family: Consolas, Menlo, Monac , monospace
 
@@ -72,20 +77,6 @@ nav
         font-size: 15px
 .btnx:hover
     border: 2px rgb(239,239,239,255) solid
-@media (max-width: 767px)
-    .intro
-        background-position: center
-    .banner
-        font-size: 20px
-    .btnx
-        margin: 10px !important
-@media (min-width: 768px) and (max-width: 1366px)
-    .btnx
-        margin: 10px !important
-    .intro
-        background-position: center
-    .banner
-        font-size: 20px
 
         // About
 .aboutme
@@ -95,7 +86,157 @@ nav
     font-weight: bold
     color: rgb(23,23,23,255)
     letter-spacing: 3px
-    
 .img
     width: 70%
     border: 5px black solid
+
+    // Skill
+.skill
+    font-family: baloo
+    background-color: rgb(243,243,243,255 )
+
+.myskill
+    color: rgb(23,23,23,255)
+    letter-spacing: 5px
+.logo
+    height: 80px
+    width: 80px
+    border: solid 2px lightgrey
+    border-radius: 50%
+.logo:hover
+    background-color: rgb(204, 41, 0)
+    color: white
+    font-size: 18px
+    border: solid 2px rgb(204, 41, 0)
+    transition: all 1s
+.rouge
+    color: rgb(204, 41, 0)
+// .empo
+//     background-image: url('/img/Site Screen/Emporium.png')
+//     // background-size: cover
+//     background-size: 100%
+//     background-repeat: no-repeat
+//     height: 50vh
+//     width: 50vh
+//     transform: scale(1)
+//     filter: brightness(1)
+//     transition: transform .2s
+//     position: relative
+
+//     &:before
+//         content: ''
+//         top: 40%
+//         right: 25%
+//     &:hover:before
+//         content: "Emporium"
+//         position: absolute
+//         font-weight: bold
+//         font-size: 50px
+//         color: red
+// .empo:hover
+//     transform: scale(1.1)
+//     filter: brightness(0.80)
+//     z-index: 1
+
+// .chef
+//     background-image: url('/img/Site Screen/SiteDuChef.png')
+//     // background-size: cover
+//     background-repeat: no-repeat
+//     background-size: 100%
+//     height: 50vh
+//     width: 50vh
+//     transform: scale(1)
+//     filter: brightness(1)
+//     transition: transform .2s
+//     position: relative
+//     &:before
+//         content: ''
+//         top: 40%
+//         right: 25%
+//     &:hover:before
+//         content: "Site Du Chef"
+//         position: absolute
+//         font-weight: bold
+//         font-size: 50px
+//         color: red
+// .chef:hover
+//     transform: scale(1.1)
+//     filter: brightness(0.80)
+//     z-index: 1
+
+// .flaty
+//     background-image: url('/img/Site Screen/Youcommunik.png')
+//     // background-size: cover
+//     background-repeat: no-repeat
+//     background-size: 100%
+//     // height: 50vh
+//     // width: 50vh
+//     transform: scale(1)
+//     filter: brightness(1)
+//     transition: transform .2s
+//     position: relative
+//     &:before
+//         content: ''
+//         top: 40%
+//         right: 25%
+//     &:hover:before
+//         content: "YouCommunik"
+//         position: absolute
+//         font-weight: bold
+//         font-size: 50px
+//         color: red
+// .flaty:hover
+//     transform: scale(1.1)
+//     filter: brightness(0.80)
+//     z-index: 1
+
+    // test2
+// .empoo
+//     background-image: url('/img/Site Screen/Emporium.png')
+//     background-size: contain
+//     background-repeat: no-repeat
+//     height: 25vh
+// .cheef
+//     background-image: url('/img/Site Screen/SiteDuChef.png')
+//     background-size: contain
+//     background-repeat: no-repeat
+//     height: 25vh
+// .flaaty
+//     background-image: url('/img/Site Screen/Youcommunik.png')
+//     background-size: contain
+//     background-repeat: no-repeat
+//     height: 25vh
+
+        // test3
+.empo
+    width: 80%
+    height: auto
+    border: 1px solid black !important
+    transform: scale(1)
+    filter: brightness(1)
+    transition: transform .2s
+.empo:hover
+    transform: scale(1.1)
+    filter: brightness(0.80)
+    z-index: 1
+
+@media (max-width: 767px)
+    .intro
+        background-position: center
+    .banner
+        font-size: 20px
+    .btnx
+        margin: 10px !important
+    .skill
+        margin: 0 !important
+@media (min-width: 768px) and (max-width: 1366px)
+    .btnx
+        margin: 10px !important
+    .intro
+        background-position: center
+    .banner
+        font-size: 20px
+    .skill
+        margin: 0 !important
+    .rouge
+        font-size: 30px
