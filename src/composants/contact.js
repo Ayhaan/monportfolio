@@ -6,7 +6,6 @@ const Contact = () => {
     return (
         <ScrollableAnchor id={'contact'}>
             <div className="contactme ">
-                {/* <div className="repeat"></div> */}
                 <div className="container  contactme ">
                     <h3 className="text-center text-white contact font-weight-bold  pt-5">Contact me</h3>
                     <div className="row sen mt-5">
@@ -16,9 +15,9 @@ const Contact = () => {
                             </div>
                             <h5 className="mt-3 mb-3 font-weight-bold text-uppercase text-danger">où me trouver</h5>
                             <p className="font-weight-bold text-secondary">Place de la Minoterie 12 <br />
-                        1080 Molenbeek-St-Jean <br />
-                        Bruxelles, BE</p>
-
+                                1080 Molenbeek-St-Jean <br />
+                                Bruxelles, BE
+                            </p>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-12 mb-5 text-center d-flex flex-column align-items-center">
                             <div className="rouge2 ">
@@ -26,7 +25,6 @@ const Contact = () => {
                             </div>
                             <h5 className="mt-3 mb-3 font-weight-bold text-uppercase text-danger">contactez-moi</h5>
                             <p className="font-weight-bold text-secondary">Caliskanayhan@hotmail.fr</p>
-
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-12 mb-5 text-center d-flex flex-column align-items-center">
                             <div className="rouge2">

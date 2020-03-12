@@ -3,24 +3,18 @@
 @import './_fonts.sass'
 // @import './_icons.sass'
 
-body
-    // font-family: balo
-    // background-color: black
-    // opacity: 0.8
 .loader
     background-color: black
     height: 100vh
-.test
-    animation: pulse2 1.5s alternate infinite ease-in-out
-.loader
     color: #fff
     font-family: Consolas, Menlo, Monaco, monospace
     font-weight: bold
     font-size: 40px
+.test
+    animation: pulse2 1.5s alternate infinite ease-in-out
 label
     font-size: 30px
     margin: 0 10px
-
 .span
     display: inline-block
     animation: pulse 0.4s alternate infinite ease-in-out
@@ -49,7 +43,6 @@ label
         opacity: 0
 .fade
     animation: FadeSpread 4s
-
 #texte
     opacity: 0.3
 
@@ -63,11 +56,8 @@ nav
     background-image: url(/img/photo-1572916118970-fb5c8a1cb3d1.jpeg)
     height: 100vh
     background-size: cover
-    // background-attachment: fixed
     filter: brightness(0.80)
-
     font-family: Consolas, Menlo, Monac , monospace
-
 .banner
     margin-top: 100px
 .btnx
@@ -90,7 +80,7 @@ nav
     width: 70%
     border: 5px black solid
 
-    // Skill
+    // Skill Perso
 .skill
     font-family: baloo
     background-color: rgb(243,243,243,255 )
@@ -139,83 +129,19 @@ nav
 //     filter: brightness(0.80)
 //     z-index: 1
 
-// .chef
-//     background-image: url('/img/Site Screen/SiteDuChef.png')
-//     // background-size: cover
-//     background-repeat: no-repeat
-//     background-size: 100%
-//     height: 50vh
-//     width: 50vh
-//     transform: scale(1)
-//     filter: brightness(1)
-//     transition: transform .2s
-//     position: relative
-//     &:before
-//         content: ''
-//         top: 40%
-//         right: 25%
-//     &:hover:before
-//         content: "Site Du Chef"
-//         position: absolute
-//         font-weight: bold
-//         font-size: 50px
-//         color: red
-// .chef:hover
-//     transform: scale(1.1)
-//     filter: brightness(0.80)
-//     z-index: 1
-
-// .flaty
-//     background-image: url('/img/Site Screen/Youcommunik.png')
-//     // background-size: cover
-//     background-repeat: no-repeat
-//     background-size: 100%
-//     // height: 50vh
-//     // width: 50vh
-//     transform: scale(1)
-//     filter: brightness(1)
-//     transition: transform .2s
-//     position: relative
-//     &:before
-//         content: ''
-//         top: 40%
-//         right: 25%
-//     &:hover:before
-//         content: "YouCommunik"
-//         position: absolute
-//         font-weight: bold
-//         font-size: 50px
-//         color: red
-// .flaty:hover
-//     transform: scale(1.1)
-//     filter: brightness(0.80)
-//     z-index: 1
-
-    // test2
-// .empoo
-//     background-image: url('/img/Site Screen/Emporium.png')
-//     background-size: contain
-//     background-repeat: no-repeat
-//     height: 25vh
-// .cheef
-//     background-image: url('/img/Site Screen/SiteDuChef.png')
-//     background-size: contain
-//     background-repeat: no-repeat
-//     height: 25vh
-// .flaaty
-//     background-image: url('/img/Site Screen/Youcommunik.png')
-//     background-size: contain
-//     background-repeat: no-repeat
-//     height: 25vh
-
-        // test3
+        // Partfolio Travail
 .empo
     width: 80%
     height: auto
     border: 1px solid black !important
-    transform: scale(1)
+    transform: sca  le(1)
     filter: brightness(1)
     transition: transform .2s
+    position: relative
+    &::after
+        content: "Emporium"
+        position: absolute
+
 .empo:hover
     transform: scale(1.1)
     filter: brightness(0.80)
@@ -239,7 +165,7 @@ nav
 
     // Contact
 .contactme
-    background-color: rgb(23,23,23,255)
+    background-color: rgb(40,40,40,255)
 .contact
     color: rgb(23,23,23,255)
     letter-spacing: 5px
@@ -261,20 +187,15 @@ nav
 .sen
     font-family: sen
     letter-spacing: 2px
-// .repeat
-//     // background-image: url("/img/footer_bottom_decoration_img.png")
-//     background-repeat: repeat-x
-//     background-color: black
-//     height: 10px
-//     width: 10000%
-//     // margin-top: -73px
 
     // Footer
 footer
     background-color: rgb(23,23,23,255)
     font-family: sen
-.foot   
+.foot
     letter-spacing: 3px
+
+    // Media
 
 @media (max-width: 767px)
     .intro

@@ -9890,17 +9890,14 @@ h3 {
 .loader {
   background-color: black;
   height: 100vh;
-}
-
-.test {
-  animation: pulse2 1.5s alternate infinite ease-in-out;
-}
-
-.loader {
   color: #fff;
   font-family: Consolas, Menlo, Monaco, monospace;
   font-weight: bold;
   font-size: 40px;
+}
+
+.test {
+  animation: pulse2 1.5s alternate infinite ease-in-out;
 }
 
 label {
@@ -10027,9 +10024,14 @@ nav {
   width: 80%;
   height: auto;
   border: 1px solid black !important;
-  transform: scale(1);
+  transform: sca le(1);
   filter: brightness(1);
   transition: transform 0.2s;
+  position: relative;
+}
+.empo::after {
+  content: "Emporium";
+  position: absolute;
 }
 
 .empo:hover {
@@ -10059,7 +10061,7 @@ nav {
 }
 
 .contactme {
-  background-color: #171717;
+  background-color: #282828;
 }
 
 .contact {

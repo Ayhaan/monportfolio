@@ -5,21 +5,11 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const Competences = () => {
 
-    // const [etoile, setEtoile] = useState(0)
-    // const [etoile1, setEtoile1] = useState(0)
-
-    // let hoveretoile = () => {
-    //     setEtoile(1)
-    // }
-    // let hoveretoileX = () => {
-    //     setEtoile(0)
-    // }
-
     return (
         <ScrollAnimation animateIn='fadeInUp'
             duration={2}>
             <ScrollableAnchor id={'skill'}>
-                <div className="row m-5 skill border rounded  ">
+                <section className="row m-5 skill border rounded  ">
                     <div className="col-12 mt-5">
                         <h3 className="text-center myskill font-weight-bold mt-5">My Skills</h3>
 
@@ -146,12 +136,9 @@ const Competences = () => {
                                     <a href="#skill"><img className="empo mx-auto d-block mt-4 border rounded" src="/img/Site Screen/Grayscale.png" alt="Emporium" /></a>
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
-
-                </div>
+                </section>
 
             </ScrollableAnchor>
 
