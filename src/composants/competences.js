@@ -131,27 +131,6 @@ const Competences = () => {
                     </div>
                     <div className="col-12 mt-5 mb-5">
                         <h3 className="mt-4 text-center myskill font-weight-bold">Portfolio</h3>
-                        {/* <div className="d-flex justify-content-center">
-                            <button className="btn-danger border rounded pr-3 pl-3">html/Css</button>
-                            <button className="btn-danger border rounded pr-3 pl-3">JavaScript</button>
-                            <button className="btn-danger border rounded pr-3 pl-3">Bootstrap</button>
-                            <button className="btn-danger border rounded pr-3 pl-3">React</button>
-                            <button className="btn-danger border rounded pr-3 pl-3">Laravel</button>
-                        </div> */}
-                        {/* <div className="container">
-                            <div className="row ">
-                                <div className="empo col-lg-4 col-md-12 col-sm-12" ></div>
-                                <div className="chef col-lg-4 col-md-12 col-sm-12" ></div>
-                                <div className="flaty col-lg-4 col-md-12 col-sm-12" ></div>
-
-                            </div>
-
-                        </div> */}
-                        {/* <div className="row mx-auto" >
-                            <div className="empoo col-lg-4 col-md-12 col-sm-12 mt-2 "></div>
-                            <div className="cheef col-lg-4 col-md-12 col-sm-12 mt-2 "></div>
-                            <div className="flaaty col-lg-4 col-md-12 col-sm-12 mt-2"></div>
-                        </div> */}
                         <div className="container-fluid mt-4">
                             <div className="row ">
                                 <div className="col-lg-6 col-md-6 col-sm-12 ">

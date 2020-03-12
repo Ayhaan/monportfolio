@@ -42,11 +42,15 @@ const About = () => {
                                 <button className='btn bg-dark mt-1 ml-2 text-white'>TELECHARGER MON CV</button>
                             </div>
                             <div className="mt-4 d-flex justify-content-center">
-                                <i className="fab fa-facebook-f fa-3x p-2  ml-2"></i>
-                                <i className="fab fa-instagram fa-3x p-2 ml-2"></i>
-                                <i className="fab fa-github fa-3x p-2  ml-2"></i>
+                                <a className="text-dark" target="_blank" href="https://www.facebook.com/profile.php?id=100007741965143"><i className="fab fa-facebook-f fa-3x p-2  ml-2"></i></a>
+                                <a className="text-dark" target="_blank" href="https://www.instagram.com/ayhn.cl/"><i className="fab fa-instagram fa-3x p-2 ml-2"></i></a>
+                                <a className="text-dark" target="_blank" href="https://github.com/Ayhaan"><i className="fab fa-github fa-3x p-2  ml-2"></i></a>
+                                <a className="text-dark" target="_blank" href="https://www.linkedin.com/in/ayhan-caliskan-718a46138/"><i className="fab fa-linkedin-in fa-3x p-2 ml-2"></i></a>
+
+
+
                                 {/* <i className="fas fa-laptop-code fa-3x p-2  ml-2"></i> */}
-                                <i className="fab fa-linkedin-in fa-3x p-2 ml-2"></i>
+
                             </div>
                         </div>
                     </div>

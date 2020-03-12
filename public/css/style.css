@@ -9878,9 +9878,14 @@ h3 {
 @font-face {
   font-family: "sen";
   src: url("../../Fonts/Sen/Sen-Regular.ttf");
-  @font-face;
+}
+@font-face {
   font-family: "baloo";
   src: url("../../Fonts/Baloo_2/Baloo2-Regular.ttf");
+}
+@font-face {
+  font-family: "vibes";
+  src: url("../..//Fonts/Great_Vibes/GreatVibes-Regular.ttf");
 }
 .loader {
   background-color: black;
@@ -10003,6 +10008,7 @@ nav {
   width: 80px;
   border: solid 2px lightgrey;
   border-radius: 50%;
+  transition: all 1s;
 }
 
 .logo:hover {
@@ -10032,6 +10038,68 @@ nav {
   z-index: 1;
 }
 
+.expe {
+  color: #171717;
+  letter-spacing: 5px;
+  font-family: baloo;
+}
+
+.minibaner {
+  background-image: url("/img/photo-1562907550-096d3bf9b25c.jpeg");
+  height: 30vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  filter: brightness(0.8);
+}
+
+.simple {
+  color: white;
+  font-family: vibes;
+}
+
+.contactme {
+  background-color: #171717;
+}
+
+.contact {
+  color: #171717;
+  letter-spacing: 5px;
+  font-family: baloo;
+}
+
+.rouge2 {
+  background-color: #cc2900;
+  color: white;
+  height: 130px;
+  width: 130px;
+  border: solid 2px white;
+  border-radius: 50%;
+  transition: all 1s;
+}
+
+.rouge2:hover {
+  background-color: white;
+  color: #cc2900;
+  font-size: 18px;
+  border: solid 2px #cc2900;
+  transition: all 1s;
+}
+
+.sen {
+  font-family: sen;
+  letter-spacing: 2px;
+}
+
+footer {
+  background-color: #171717;
+  font-family: sen;
+}
+
+.foot {
+  letter-spacing: 3px;
+}
+
 @media (max-width: 767px) {
   .intro {
     background-position: center;
@@ -10047,6 +10115,14 @@ nav {
 
   .skill {
     margin: 0 !important;
+  }
+
+  .minibaner {
+    margin: 0 !important;
+  }
+
+  .citation {
+    padding: 0 !important;
   }
 }
 @media (min-width: 768px) and (max-width: 1366px) {
