@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div >
-      {/* <Loaders/> */}
+      <Loaders/>
       <header  >
         <nav className="navbar navbar-expand-lg navbar-light fixed-top text-white p-3" style={{ zIndex: 1 }} >
           <div className="container">
