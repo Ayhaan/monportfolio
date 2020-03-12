@@ -10029,7 +10029,7 @@ nav {
   transition: transform 0.2s;
   position: relative;
 }
-.empo::after {
+.empo:after {
   content: "Emporium";
   position: absolute;
 }

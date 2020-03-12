@@ -5,7 +5,7 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 
 const Banner = () => {
     let a = "<"
-    let b = "/>"
+    let b = ">"
 
     return (
         <ScrollableAnchor id={'cl'}>
@@ -15,7 +15,7 @@ const Banner = () => {
                         <h1 className="d-flex banner">{a}
                             <Typewriter
                                 options={{
-                                    strings: [`_I'm from Belgium `, ` _Hi, I'm Ayhan Caliskan `, ` _I'm a Full Stack Developer `],
+                                    strings: [`/ Welcome on my Portfolio `, `/ Hi, I'm Ayhan Caliskan  `, `/ I'm a Belgium full stack developer `],
                                     autoStart: true,
                                     loop: true,
                                 }}
@@ -23,9 +23,13 @@ const Banner = () => {
                             {b}
                         </h1>
                     </div>
-                    
+                    {/* <div className="parentfleche d-flex justify-content-center">
+
+                        <i class="fas fa-angle-double-down m-2"></i>
+
+                    </div> */}
                     <button className="btn mt-5 text-white d-flex align-items-end btnx">
-                        <a className="text-white" href="#about">A PROPOS DE MOI</a>
+                        <a className="text-white" href="#about">A PROPOS DE MOI <i class="fas fa-angle-double-down "></i></a>
                     </button>
                 </div>
 
