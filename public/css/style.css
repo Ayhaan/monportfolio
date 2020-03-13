@@ -10029,6 +10029,8 @@ nav {
   height: auto;
   width: 100%;
   overflow: hidden;
+  border-left: 50px solid #f3f3f3;
+  border-right: 50px solid #f3f3f3;
 }
 .block .left {
   text-transform: uppercase;
@@ -10042,7 +10044,13 @@ nav {
   transition: all 0.2s;
 }
 .block:hover .left {
+  text-align: center;
   left: 50%;
+  backdrop-filter: brightness(0.2);
+  border-radius: 10px;
+  padding: 70px;
+  height: 100%;
+  width: 100%;
 }
 .block .right {
   font-size: 20px;
@@ -10070,12 +10078,6 @@ nav {
   transform: scale(1);
   filter: brightness(1);
   transition: all 0.2s;
-}
-
-.empo:hover {
-  filter: brightness(0.2);
-  border: 1px solid black;
-  border-radius: 10px;
 }
 
 .expe {
@@ -10163,6 +10165,18 @@ footer {
 
   .citation {
     padding: 0 !important;
+  }
+
+  .block {
+    border: none;
+  }
+
+  .left {
+    font-size: 15px;
+  }
+
+  .right {
+    font-size: 25px;
   }
 }
 @media (min-width: 768px) and (max-width: 1366px) {
