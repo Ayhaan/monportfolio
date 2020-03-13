@@ -15,7 +15,7 @@ const Banner = () => {
                         <h1 className="d-flex banner">{a}
                             <Typewriter
                                 options={{
-                                    strings: [`/ Welcome on my Portfolio `, `/ Hi, I'm Ayhan Caliskan  `, `/ I'm a Belgium full stack developer `],
+                                    strings: [`/ Welcome on my Portfolio `, `/ Hi, I'm Ayhan Caliskan  `, `/ I'm a Belgian Full Stack Developer `],
                                     autoStart: true,
                                     loop: true,
                                 }}
@@ -29,7 +29,7 @@ const Banner = () => {
 
                     </div> */}
                     <button className="btn mt-5 text-white d-flex align-items-end btnx">
-                        <a className="text-white" href="#about">A PROPOS DE MOI <i class="fas fa-angle-double-down "></i></a>
+                        <a className="text-white" href="#about">A PROPOS DE MOI <i className="fas fa-angle-double-down "></i></a>
                     </button>
                 </div>
 

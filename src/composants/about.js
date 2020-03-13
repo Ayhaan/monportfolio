@@ -18,7 +18,7 @@ const About = () => {
                             <img className="img mt-5" src="/img/photo-1581978846964-d3ee3ed0bed1.jpeg" alt="" />
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 mt-5">
-                            <p className="about  text-center mt-5">QUI SUIS-JE? ?</p>
+                            <p className="about  text-center mt-5">QUI SUIS-JE?</p>
                             <hr />
                             <p>Je m'appelle <span className="text-dark font-weight-bold">Ayhan Caliskan</span> né le 04 mai 1997. Je vis en Belgique là où j'effectue une formation dans laquelle j'acqueris les compétences nécessaires pour devenir <span className="text-dark font-weight-bold">Full Stack Dévlopeur.</span> <br />
                              Je suis une personne <span className="text-dark font-weight-bold">autonome</span>, <span className="text-dark font-weight-bold">créative</span>, <span className="text-dark font-weight-bold">enthousiaste </span> et <span className="text-dark font-weight-bold">curieuse</span> . J'aime toujours créer quelque chose par moi-même qui soit utile pour les autres.</p>

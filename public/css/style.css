@@ -9887,6 +9887,10 @@ h3 {
   font-family: "vibes";
   src: url("../..//Fonts/Great_Vibes/GreatVibes-Regular.ttf");
 }
+@font-face {
+  font-family: "raj";
+  src: url("../../Fonts/Rajdhani/Rajdhani-Regular.ttf");
+}
 .loader {
   background-color: black;
   height: 100vh;
@@ -10020,24 +10024,58 @@ nav {
   color: #cc2900;
 }
 
-.empo {
-  width: 80%;
-  height: auto;
-  border: 1px solid black !important;
-  transform: sca le(1);
-  filter: brightness(1);
-  transition: transform 0.2s;
+.block {
   position: relative;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
 }
-.empo:after {
-  content: "Emporium";
+.block .left {
+  text-transform: uppercase;
+  font-family: raj;
+  font-size: 30px;
+  color: white;
   position: absolute;
+  top: 50%;
+  left: -20%;
+  transform: translate(-50%, -50%);
+  transition: all 0.2s;
+}
+.block:hover .left {
+  left: 50%;
+}
+.block .right {
+  font-size: 20px;
+  font-family: raj;
+  font-style: italic;
+  color: white;
+  font-style: bold;
+  position: absolute;
+  top: 60%;
+  right: -30%;
+  transform: translate(50%, -50%);
+  transition: all 0.2s;
+}
+.block:hover .right {
+  right: 50%;
+}
+
+.empo {
+  width: 100%;
+  height: auto;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 1px solid black;
+  border-radius: 10px;
+  transform: scale(1);
+  filter: brightness(1);
+  transition: all 0.2s;
 }
 
 .empo:hover {
-  transform: scale(1.1);
-  filter: brightness(0.8);
-  z-index: 1;
+  filter: brightness(0.2);
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 .expe {

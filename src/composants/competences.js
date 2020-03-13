@@ -9,7 +9,7 @@ const Competences = () => {
         <ScrollAnimation animateIn='fadeInUp'
             duration={2}>
             <ScrollableAnchor id={'skill'}>
-                <section className="row m-5 skill border rounded  ">
+                <section  className="row m-5 skill border rounded  ">
                     <div className="col-12 mt-5">
                         <h3 className="text-center myskill font-weight-bold mt-5">My Skills</h3>
 
@@ -121,9 +121,9 @@ const Competences = () => {
                     </div>
                     <div className="col-12 mt-5 mb-5">
                         <h3 className="mt-4 text-center myskill font-weight-bold">Portfolio</h3>
-                        <div className="container-fluid mt-4">
-                            <div className="row ">
-                                <div className="col-lg-6 col-md-6 col-sm-12 ">
+                        <div className="container mt-4">
+                            <div className="row mt-4">
+                                {/* <div className="col-lg-6 col-md-6 col-sm-12 ">
                                     <a href="#skill"><img className="empo mx-auto d-block mt-4 border rounded" src="/img/Site Screen/Emporium.png" alt="Emporium" /></a>
                                 </div>
                                 <div className="col-lg-6 col-md-6 col-sm-12">
@@ -134,7 +134,29 @@ const Competences = () => {
                                 </div>
                                 <div className="col-lg-6 col-md-6 col-sm-12">
                                     <a href="#skill"><img className="empo mx-auto d-block mt-4 border rounded" src="/img/Site Screen/Grayscale.png" alt="Emporium" /></a>
+                                </div> */}
+                                <div className="col-lg-6 block mb-5 ">
+                                    <a href="#skill"><img className="empo d-block mt-4 mx-auto " src="/img/Site Screen/Emporium.png" alt="Emporium" /></a>
+                                    <div className="left">Emporium</div>
+                                    <div className="right mt-2">Js/Html/Css/Sass/Bootstrap</div>
                                 </div>
+                                <div className="col-lg-6 block mb-5 ">
+                                    <a href="#skill"><img className="empo mx-auto d-block mt-4 " src="/img/Site Screen/SiteDuChef.png" alt="Emporium" /></a>
+                                    <div className="left">Site du Chef</div>
+                                    <div className="right mt-2">Html/Css/Sass/Bootstrap</div>
+                                </div>
+                                <div className="col-lg-6 block mb-5 ">
+                                    <a href="#skill"><img className="empo mx-auto  d-block mt-4 " src="img/Site Screen/Youcommunik.png" alt="Emporium" /></a>
+                                    <div className="left">YoucommuniK</div>
+                                    <div className="right mt-2">Html/Css/Bootstrap</div>
+                                </div >                               
+                                 <div className="col-lg-6 block mb-5 ">
+                                    <a href="#skill"><img className="empo mx-auto d-block mt-4" src="img/Site Screen/Grayscale.png" alt="Emporium" /></a>
+                                    <div className="left">Grayscale</div>
+                                    <div className="right mt-2">Html/Css/Bootstrap</div>
+                                </div>
+
+
                             </div>
                         </div>
                     </div>

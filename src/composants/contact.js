@@ -7,7 +7,8 @@ const Contact = () => {
         <ScrollableAnchor id={'contact'}>
             <div className="contactme ">
                 <div className="container  contactme ">
-                    <h3 className="text-center text-white contact font-weight-bold  pt-5">Reach me</h3>
+                    <div className="pt-1"></div>
+                    <h3 className="text-center text-white contact font-weight-bold mt-5 pt-5">Reach me</h3>
                     <div className="row sen mt-5">
                         <div className="col-lg-4 col-md-4 col-sm-12 mb-5 text-center d-flex flex-column align-items-center">
                             <div className="rouge2 ">

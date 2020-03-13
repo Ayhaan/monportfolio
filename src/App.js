@@ -8,6 +8,7 @@ import MiniBaner from './composants/minibaner'
 import Contact from './composants/contact'
 
 
+
 function App() {
 
   return (
@@ -30,7 +31,7 @@ function App() {
                 </li>
                 {/* <li className="nav-item ">
                   <a className="nav-link text-white" href="#expe">Expérience.</a>
-                </li> */}
+                </li>  */}
                 <li className="nav-item">
                   <a className="nav-link text-white " href="#contact">Contact.</a>
                 </li>
