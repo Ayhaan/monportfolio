@@ -17,23 +17,23 @@ function App() {
       <header  >
         <nav className="navbar navbar-expand-lg navbar-light fixed-top text-white p-3" style={{ zIndex: 1 }} >
           <div className="container">
-            <a className="navbar-brand text-white" href="#cl">CaliskanAyhan.</a>
+            <a className="navbar-brand text-white" href="#cl">AyhanCaliskan</a>
             <button className="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span > &#199; </span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ml-auto ">
                 <li className="nav-item">
-                  <a className="nav-link text-white" href="#about">About.</a>
+                  <a className="nav-link text-white" href="#about">ABOUT</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-white" href="#skill">Skills.</a>
+                  <a className="nav-link text-white" href="#skill">SKILLS</a>
                 </li>
                 {/* <li className="nav-item ">
                   <a className="nav-link text-white" href="#expe">Expérience.</a>
                 </li>  */}
                 <li className="nav-item">
-                  <a className="nav-link text-white " href="#contact">Contact.</a>
+                  <a className="nav-link text-white " href="#contact">CONTACT</a>
                 </li>
               </ul>
             </div>
@@ -66,11 +66,11 @@ function App() {
             <a className="text-secondary" rel="noopener noreferrer" target='_blank' href="https://www.linkedin.com/in/ayhan-caliskan-718a46138/"><i className="fab fa-linkedin-in fa-3x p-2 ml-2"></i></a>
           </div>
           <p className="mt-3 text-white">
-            <span className="font-weight-bold text-secondary mr-3">All Rights Reserved.</span>
+            <span className="font-weight-bold text-secondary mr-3">All Rights Reserved</span>
             <span>&#x7C;</span>
-            <span className="font-weight-bold text-secondary ml-3">&copy;</span>opyright 2020.
+            <span className="font-weight-bold text-secondary ml-3">&copy;</span>opyright 2020
             <span className="ml-3">&#x7C;</span>
-            <span className="font-weight-bold text-secondary ml-3">By</span> Ayhan Caliskan.
+            <span className="font-weight-bold text-secondary ml-3">By</span> Ayhan Caliskan
           </p>
         </div>
       </footer>

@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="contactme ">
                 <div className="container  contactme ">
                     <div className="pt-1"></div>
-                    <h3 className="text-center text-white contact font-weight-bold mt-5 pt-5">Reach me</h3>
+                    <h3 className="text-center text-white contact font-weight-bold mt-5 pt-5">REACH ME</h3>
                     <div className="row sen mt-5">
                         <div className="col-lg-4 col-md-4 col-sm-12 mb-5 text-center d-flex flex-column align-items-center">
                             <div className="rouge2 ">
@@ -32,7 +32,7 @@ const Contact = () => {
                                 <i className="fas fa-phone-volume mt-4 fa-4x"></i>
                             </div>
                             <h5 className="mt-3 mb-3 font-weight-bold text-uppercase text-danger">contactez-moi </h5>
-                            <p className="text-white"><span className="font-weight-bold text-secondary">Phone:</span> +34 486 24 59 50</p>
+                            <p className="text-white">+32(0) 486 24 59 50</p>
                         </div>
                     </div>
                 </div>

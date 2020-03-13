@@ -11,7 +11,7 @@ const Competences = () => {
             <ScrollableAnchor id={'skill'}>
                 <section className="row m-5 skill border rounded  ">
                     <div className="col-12 mt-5">
-                        <h3 className="text-center myskill font-weight-bold mt-5">My Skills</h3>
+                        <h3 className="text-center myskill font-weight-bold mt-5">MY SKILLS</h3>
 
                         <div className="container mt-4  ">
                             <div className="row d-flex justify-content-center ">
@@ -120,7 +120,7 @@ const Competences = () => {
 
                     </div>
                     <div className="col-12 mt-5 mb-5">
-                        <h3 className="mt-4 text-center myskill font-weight-bold">Portfolio</h3>
+                        <h3 className="mt-4 text-center myskill font-weight-bold">PORTFOLIO</h3>
                         <div className="container-fluid mt-4">
                             <div className="row mt-4">
                                 {/* <div className="col-lg-6 col-md-6 col-sm-12 ">
